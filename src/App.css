@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: url(../src/images/mpu.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+
+    
+    margin: 20px 0px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+    color: black;
+    font-family: sans-serif;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: black;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-style: bold;
+}
+nav ul li button:hover
+{
+    color: black;
+    font-style: Bold;
+    box-shadow: 0 0 10px orangered;
+}
+nav ul li a:hover
+{
+    color: black;
+ 
+    box-shadow: 0 0 10px orangered;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h1{
+	padding: 50px;
+}
